@@ -1,3 +1,5 @@
 def main():
     unused_variable = 10
-    print("This is now a valid line that uses the variable:",unused_variable)
+    print("This is now a valid line that uses the variable:", unused_variable)
+    x = 1 + 2
+    print("using variable x", x)
