@@ -1,0 +1,24 @@
+[project]
+name = "dsc190-a5"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sean H. Liu", email = "seanlcyan024@gmail.com" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=2.0.2",
+]
+
+[project.scripts]
+dsc190-a5 = "dsc190_a5:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.17.3",
+]
